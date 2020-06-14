@@ -1,0 +1,35 @@
+#wave-timeline {
+    height: 100px;
+}
+
+.wavesurfer-handle {
+    width: 3px !important;
+    background-color: inherit !important;
+}
+
+.wavesurfer-region {
+    z-index: 999 !important;
+}
+
+.waveform-view {
+    height: 100%;
+    background: white;
+
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    canvas {
+        background-color: inherit;
+    }
+
+    .btn {
+        margin: 20px 10px;
+    }
+}
+
+#waveform,
+#waveform2 {
+    margin: 20px;
+}

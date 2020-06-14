@@ -1,0 +1,39 @@
+//https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox
+
+.flex {
+    display: flex;
+
+    &.flex-column {
+        flex-direction: column;
+    }
+
+    &.flex-row {
+        flex-direction: row;
+    }
+
+    &.justified {
+        justify-content: space-between;
+    }
+
+    &.verticaly-centered {
+        align-items: center;
+    }
+
+    &.horisontaly-centered {
+        justify-content: center;
+    }
+
+    &.centered {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        flex: 1 1 auto;
+        overflow: auto;
+    }
+}
+
+.push-right {
+    margin-left: auto;
+}

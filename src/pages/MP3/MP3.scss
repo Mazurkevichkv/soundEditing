@@ -1,0 +1,28 @@
+body {
+    background: black;
+}
+
+canvas {
+    width: 12 00px;
+    height: 300px;
+    margin: 2rem auto;
+    background-color: black;
+
+    rect {
+        fill: red($color: #000000);
+        fill-opacity: 0.3;
+    }
+}
+
+.app .view .mp3-section {
+    background-color: black;
+    height: 100%;
+
+    color: white;
+    padding: 15px;
+
+    p {
+        padding-left: 30px;
+        font-size: 20px;
+    }
+}
